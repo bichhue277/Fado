@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = "src/test/resources/org/example/Information.feature",
+        features = "src/test/resources/org/example/ChangePassword.feature",
         glue = "StepDefinitions",
         dryRun = false
 )

@@ -38,6 +38,6 @@ public class Hooks {
             byte[] screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png", "error");
         }
-        //driver.quit();
+        driver.quit();
     }
 }
